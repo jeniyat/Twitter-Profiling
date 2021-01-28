@@ -1,4 +1,5 @@
-1. Extacting botometer score:
+# Extacting botometer score:
+
 	This process is done using the botometer-python library: https://github.com/IUNetSci/botometer-python
 	Here we have also attached a sample scirpt run_botometer.py to extract botometer scores from a list of user_ids.
 	Changes needed to make in this script:
@@ -11,7 +12,7 @@
 	Output_1: botometer_score.json. This file will contain the botometer scores for all user id
 	Output_2: botometer_error_all.json. This file will contain errors for the user ids that botometer was not able to extract.
 
-2. Extracting humanizr: 
+# Extracting humanizr: 
 	
 	Step 1: First we need to extract a folder with status from users.
 	To do that we need to use the script: run_status_collector.py
