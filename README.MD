@@ -6,9 +6,12 @@ Here we have also attached a sample scirpt run_botometer.py to extract botometer
 
 Changes needed to make in this script:
 
--- please use a valid mashup key. mashup keys can be get from: https://rapidapi.com/OSoMe/api/botometer?utm_source=mashape&utm_medium=301
--- please use valid twitter tokens [CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET]
--- please update the list of input files in if __name__ == '__main__':
+- please use a valid mashup key. mashup keys can be get from: https://rapidapi.com/OSoMe/api/botometer?utm_source=mashape&utm_medium=301
+
+- please use valid twitter tokens [CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET]
+
+- please update the list of input files in if __name__ == '__main__':
+
 
 Command to run: 
 
@@ -26,14 +29,18 @@ Output_2:
 
 # Extracting humanizr: 
 	
-Step 1: First we need to extract a folder with status from users.
+**Step 1:** 
+
+First we need to extract a folder with status from users.
 
 To do that we need to use the script: run_status_collector.py
 	
 Changes needed to make in this script:
 
--- please use valid twitter tokens [CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET]
--- please update the list of input files in if __name__ == '__main__':
+- please use valid twitter tokens [CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET]
+
+- please update the list of input files in if __name__ == '__main__':
+
 
 Command to run: 
 
@@ -52,14 +59,17 @@ Output_2:
 
 This file will contain errors for the user ids that the status collector was not able to extract.
 
-Step 2: In the second step we will extract humanizr score using hte github repository: https://github.com/Humanizr/Humanizer. Please clone the repository and install the package by following the instruction in the repository.
+**Step 2:** 
+
+In the second step we will extract humanizr score using hte github repository: https://github.com/Humanizr/Humanizer. Please clone the repository and install the package by following the instruction in the repository.
 
 After cloning the repository, you can run the run_humanizr.sh script to extract the humanizr output:  
 
 Changes needed to make in this script:
 
--- Please update the DIR with the location of the cloned humanizr directory 
--- Please update the TWEET_DIR with the status folder found using Step 1
+- Please update the DIR with the location of the cloned humanizr directory 
+
+- Please update the TWEET_DIR with the status folder found using Step 1
 
 Command to run: 
 
