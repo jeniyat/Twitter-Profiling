@@ -55,7 +55,7 @@ This folder will contain the status in json formmat for all user id
 	
 Output_2: 
 
-	status_error_all.json. 
+	status_error_all.json
 
 This file will contain errors for the user ids that the status collector was not able to extract.
 
@@ -77,7 +77,7 @@ Command to run:
 
 Output_1: 
 
-	humanizr.tsv. 
+	humanizr.tsv
 
 This file will contain the humanizr output for all user id
 
